@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.audiolibros.chido"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:32:5-66
+11-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:32:22-64
+12
+13    <application
+13-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:5:5-31:19
+14        android:name="com.example.audiolibros.chido.Aplicacion"
+14-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:6:9-64
+15        android:allowBackup="true"
+15-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+16-->[com.android.support:support-compat:28.0.0] C:\Users\Brian\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:8:9-43
+19        android:label="AudioLibroBasico"
+19-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:9:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:10:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:11:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:12:9-40
+24        <meta-data
+24-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:13:9-14:68
+25            android:name="android.app.default_searchable"
+25-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:13:20-65
+26            android:value="com.example.audiolibros.MainActivity" />
+26-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:14:13-65
+27
+28        <activity
+28-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:15:9-28:20
+29            android:name="com.example.audiolibros.chido.MainActivity"
+29-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:16:13-70
+30            android:label="AudioLibroBasico"
+30-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:17:13-45
+31            android:launchMode="singleTop"
+31-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:19:13-43
+32            android:theme="@style/AppTheme.NoActionBar" >
+32-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:18:13-56
+33            <intent-filter>
+33-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:20:13-24:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:21:17-69
+34-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:21:25-66
+35                <action android:name="android.intent.action.SEARCH" />
+35-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:22:17-71
+35-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:22:25-68
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:23:17-77
+37-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39
+40            <meta-data
+40-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:25:13-27:54
+41                android:name="android.app.searchable"
+41-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:26:17-54
+42                android:resource="@xml/searchable" />
+42-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:27:17-51
+43        </activity>
+44        <activity android:name="com.example.audiolibros.chido.PreferenciasActivity" />
+44-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:29:9-86
+44-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:29:19-84
+45
+46        <service android:name="com.example.audiolibros.chido.fragments.LocalService" />
+46-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:30:9-73
+46-->C:\Users\Brian\Desktop\PROGRAMACION MOBIL\UNIDAD 1\MiAudioLibro\app\src\main\AndroidManifest.xml:30:18-62
+47    </application>
+48
+49</manifest>
